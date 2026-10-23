@@ -7,7 +7,7 @@ GeoPunch holds your OrangeHRM password and talks to your company's HR server, so
 **Please don't open a public issue.** Report privately in one of these ways:
 
 - GitHub: [Report a vulnerability](https://github.com/alkaes/GeoPunch/security/advisories/new) (private to you and the developer).
-- Email: aleksey@radomatics.com with "GeoPunch security" in the subject.
+- Email: alkaes@gmail.com with "GeoPunch security" in the subject.
 
 Include the GeoPunch version, what an attacker could do, and the steps to reproduce. You'll get a reply within 7 days. Once a fix is released you'll be credited in the release notes unless you'd rather not be.
 

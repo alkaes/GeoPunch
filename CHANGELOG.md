@@ -2,6 +2,11 @@
 
 User-visible changes in each GeoPunch release. The version is shown in Settings → About & Legal.
 
+## Next release
+
+- **Report a problem** and **Suggest a feature** in Settings → About & Legal open this issue tracker, with the app version and phone filled in.
+- The privacy policy moved to https://alkaes.github.io/GeoPunch/privacy/.
+
 ## 1.2
 
 First Google Play closed-test release.

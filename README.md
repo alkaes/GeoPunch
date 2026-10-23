@@ -34,7 +34,9 @@ GeoPunch punches you in when you arrive at work and out when you leave, straight
 
 ## Get the app
 
-GeoPunch is in a **closed test on Google Play**; the public release follows once the test is complete. To join the test, email aleksey@radomatics.com with the Google account you use on your phone. Don't post that address in an issue: issues are public.
+<a href="https://play.google.com/store/apps/details?id=com.hrm.punchclock"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="80" alt="Get it on Google Play"></a>
+
+GeoPunch is on [Google Play](https://play.google.com/store/apps/details?id=com.hrm.punchclock). While the closed test runs, the store page opens only for enrolled testers: to join, email alkaes@gmail.com with the Google account you use on your phone. Don't post that address in an issue: issues are public.
 
 Requirements:
 - Android 7.0 or newer.
@@ -42,6 +44,8 @@ Requirements:
 - To punch with an adjusted time, the administrator must enable *"Employee can change current time when punching in/out"*. Without it the server accepts only punches within about 3 minutes of now.
 
 ## Report a problem or suggest a feature
+
+From the version after 1.2, **Settings → About & Legal → Report a problem** in the app opens the bug report with your app version and phone already filled in.
 
 | I want to… | Use |
 |---|---|
@@ -66,7 +70,7 @@ Everything here is public. **Never post:**
 ## Frequently asked questions
 
 **Does GeoPunch track my location in the background?**
-No. Location is read only while the app is open or while its monitoring notification is showing, and positions are compared with your work sites on the phone. The app never sends your position to your server or to the developer. See the [privacy policy](https://gist.github.com/alkaes/eebd2a472570d81ffcb0752fc67ecf3a).
+No. Location is read only while the app is open or while its monitoring notification is showing, and positions are compared with your work sites on the phone. The app never sends your position to your server or to the developer. See the [privacy policy](https://alkaes.github.io/GeoPunch/privacy/).
 
 **The app didn't punch me in when I arrived.**
 Check the status strip on Home: monitoring stopped, notifications off, a day off or holiday, leave, or outside the automatic punch-in time window all prevent it on purpose. Some phones (Samsung, Xiaomi, Huawei and others) stop apps aggressively: set GeoPunch's battery usage to *Unrestricted*. If none of that explains it, open a bug report.
@@ -86,6 +90,8 @@ See [CHANGELOG.md](CHANGELOG.md) and the [Releases](https://github.com/alkaes/Ge
 
 ## Contact
 
-aleksey@radomatics.com, for anything that doesn't belong in a public issue.
+alkaes@gmail.com, for anything that doesn't belong in a public issue.
 
-Privacy policy: https://gist.github.com/alkaes/eebd2a472570d81ffcb0752fc67ecf3a
+Privacy policy: https://alkaes.github.io/GeoPunch/privacy/
+
+<sub>Google Play and the Google Play logo are trademarks of Google LLC.</sub>

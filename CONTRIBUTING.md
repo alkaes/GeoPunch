@@ -7,7 +7,7 @@ GeoPunch's source code is not public, so this repository doesn't take pull reque
 - **Request features** with the [feature request](https://github.com/alkaes/GeoPunch/issues/new?template=feature_request.yml) form. Start from the problem you have, not the button you want.
 - **Tell us about your server** with the [server compatibility](https://github.com/alkaes/GeoPunch/issues/new?template=server_compatibility.yml) form if GeoPunch doesn't work with it. OrangeHRM setups vary, and every report widens what's supported.
 - **Translate**: corrections to Hebrew and Russian, and new languages, through the [translation](https://github.com/alkaes/GeoPunch/issues/new?template=translation.yml) form.
-- **Test pre-releases** on Google Play: email aleksey@radomatics.com to join.
+- **Test pre-releases** on Google Play: email alkaes@gmail.com to join.
 
 ## How issues are handled
 

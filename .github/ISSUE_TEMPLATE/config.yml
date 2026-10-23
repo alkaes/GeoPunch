@@ -4,8 +4,8 @@ contact_links:
     url: https://github.com/alkaes/GeoPunch/security/advisories/new
     about: Report privately. Please don't open a public issue for security problems.
   - name: Join the Google Play beta, or anything private
-    url: mailto:aleksey@radomatics.com
+    url: https://github.com/alkaes/GeoPunch#contact
     about: Email the developer. Use this when your report can't be written without private details.
   - name: Privacy policy
-    url: https://gist.github.com/alkaes/eebd2a472570d81ffcb0752fc67ecf3a
+    url: https://alkaes.github.io/GeoPunch/privacy/
     about: What data GeoPunch handles and where it goes.
