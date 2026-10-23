@@ -15,7 +15,7 @@ GeoPunch is an independent third-party tool and is not affiliated with, endorsed
 
 ## Summary
 
-- There is no GeoPunch account, no GeoPunch server and no cloud service. The developer receives none of your data.
+- There is no GeoPunch account, no GeoPunch server and no cloud service. The developer receives none of your data, except an email you choose to send.
 - Your attendance data goes only to the OrangeHRM server **you** enter in the app, which is run by your employer (or by you).
 - Your location is used on your device to tell whether you are at a work site. Your position is never sent to your OrangeHRM server or to the developer. The only exception is the Work Sites screen: map and address services can learn your approximate location there (see below).
 - No ads, no analytics, no crash-reporting or tracking SDKs.
@@ -47,8 +47,8 @@ Your employer controls that server and the data on it, under its own privacy pol
 - **Address search** uses Android's built-in Geocoder (provided by Google on most devices) and, if that finds nothing, OpenStreetMap Nominatim (nominatim.openstreetmap.org). The address text you type is sent to look it up. When you pick a point on the map or tap "use my location", that point is sent to the device's Geocoder (not to Nominatim) to show its street address.
 - You can avoid both by typing the address of your work site instead of using your location.
 
-**To GitHub** (only when you tap "Report a problem" or "Suggest a feature" in Settings → About & Legal):
-- The link opens GitHub's issue page for GeoPunch in your browser. "Report a problem" fills in the app version, phone model and Android version, which GitHub receives as part of the link. Nothing is posted until you submit the form yourself, and you can edit or remove those details first. See the [GitHub privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+**By email** (only when you tap "Report a problem" or "Suggest a feature" in Settings → About & Legal):
+- Your email app opens with a message to alkaes@gmail.com. "Report a problem" fills in the app version, phone model and Android version. Nothing is sent until you send it yourself, and you can edit or remove those details first. The developer receives that email and your email address and uses them only to reply to you.
 
 **Location services:** the app uses Android's location services (Google Play services fused location) to read your position on the device.
 
@@ -68,7 +68,7 @@ Notifications are used to confirm, adjust or cancel each punch, to show that mon
 
 ## Sharing and selling
 
-The developer does not collect, share or sell your data. Data reaches third parties only as described above (your employer's server, OpenStreetMap, your device's geocoding provider, and GitHub when you choose to report a problem), and only to provide the app's functions.
+The developer does not collect, share or sell your data; emails you send are used only to reply to you. Data reaches third parties only as described above (your employer's server, OpenStreetMap and your device's geocoding provider), and only to provide the app's functions.
 
 ## Retention and deletion
 
