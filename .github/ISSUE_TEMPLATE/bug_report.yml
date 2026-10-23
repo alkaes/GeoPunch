@@ -1,0 +1,130 @@
+name: Bug report
+description: Something in GeoPunch doesn't work as it should.
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. **This issue is public.** Don't include your server address, username, password, colleagues' names, or the exact location of your workplace or home. Crop or blur screenshots that show them.
+
+        Can't sign in or sync at all? The [server compatibility](https://github.com/alkaes/GeoPunch/issues/new?template=server_compatibility.yml) form asks the right questions. Security problem? See [SECURITY.md](https://github.com/alkaes/GeoPunch/blob/main/SECURITY.md) instead.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Where does the problem happen?
+      options:
+        - Automatic punch-in on arrival
+        - Automatic punch-out / exit grace period
+        - Office Wi-Fi detection
+        - Punch confirmation dialog or notification
+        - Manual punch, adding or editing punches
+        - Sync with the server / offline punches
+        - Monthly attendance
+        - Leave
+        - Work sites / map / address search
+        - Widget, Quick Settings tile or shortcuts
+        - Notifications
+        - Battery usage
+        - Appearance, language or translation
+        - Something else
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you see, and what did you expect instead?
+      placeholder: |
+        I arrived at the office at 08:55 and no "Punch in?" prompt appeared. I expected the prompt within a minute of arriving.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: If you can make it happen again, how?
+      placeholder: |
+        1. Settings → Attendance rules → exit grace period 10 min
+        2. Leave the site for 5 minutes and come back
+        3. …
+    validations:
+      required: false
+
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does it happen?
+      options:
+        - Every time
+        - Often
+        - Once or rarely
+    validations:
+      required: true
+
+  - type: input
+    id: app-version
+    attributes:
+      label: GeoPunch version
+      description: Settings → About & Legal shows it.
+      placeholder: "1.2"
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: Phone and Android version
+      placeholder: Samsung Galaxy S23, Android 15 (One UI 7)
+    validations:
+      required: true
+
+  - type: input
+    id: server-version
+    attributes:
+      label: OrangeHRM version
+      description: Shown in the footer of the OrangeHRM web page or under the user menu → About. Write "don't know" if you can't find it.
+      placeholder: "5.7"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: setup
+    attributes:
+      label: Your setup
+      description: Tick all that apply.
+      options:
+        - label: Location permission is granted ("While using the app")
+        - label: The GeoPunch monitoring notification was showing when it happened
+        - label: Battery usage for GeoPunch is set to Unrestricted (or not optimised)
+        - label: The work site has an office Wi-Fi network set
+        - label: I have more than one work site
+
+  - type: textarea
+    id: status-strip
+    attributes:
+      label: What did the Home screen say?
+      description: Any message in the status strip at the top of Home (for example "Site monitoring is not running", "Offline" or "No location fix for a while"), or the error shown in the Log tab for the failed punch.
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or screen recording
+      description: Drag files here. Remove any private details first.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched the existing issues and this one is new.
+          required: true
+        - label: This report contains no server address, credentials, names or precise locations.
+          required: true

@@ -1,0 +1,67 @@
+name: Feature request
+description: Suggest a new feature or a change to how GeoPunch works.
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search the [open feature requests](https://github.com/alkaes/GeoPunch/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement) first. If yours is already there, add a 👍 to it: votes decide what gets built first.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would it solve?
+      description: Describe the situation, not the solution yet. "When I work from a client's office for a day…" is more useful than "add a temporary site button".
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: What would you like GeoPunch to do?
+      description: How you imagine it working. Sketches and screenshots of other apps are welcome.
+    validations:
+      required: true
+
+  - type: textarea
+    id: workaround
+    attributes:
+      label: What do you do today instead?
+      description: Workarounds, other apps, or fixing it by hand in OrangeHRM.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Automatic punching and rules
+        - Location, Wi-Fi and battery
+        - Attendance and timesheets
+        - Leave
+        - Notifications, widget, tile and shortcuts
+        - Appearance and languages
+        - Server support (other OrangeHRM versions or HR systems)
+        - New platform (iOS, Wear OS, …)
+        - Something else
+    validations:
+      required: true
+
+  - type: dropdown
+    id: importance
+    attributes:
+      label: How important is it to you?
+      options:
+        - Nice to have
+        - It would make the app much more useful
+        - I can't use GeoPunch without it
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: admin
+    attributes:
+      label: Server side
+      options:
+        - label: This would need something from the OrangeHRM server or an administrator setting (if you know).

@@ -1,0 +1,45 @@
+name: Translation
+description: Report a wrong or awkward translation, or offer to translate GeoPunch into a new language.
+labels: ["translation", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        GeoPunch is available in English, Hebrew and Russian. Corrections and new languages are welcome.
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is it?
+      options:
+        - A translation mistake or awkward wording
+        - Text that is cut off, overlaps or is shown in the wrong language
+        - I'd like to translate GeoPunch into a new language
+    validations:
+      required: true
+
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      placeholder: Hebrew
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: |
+        For a correction: the screen, the current text and the text you suggest.
+        For a new language: whether you are a native speaker and roughly how much time you can give (the app has about 450 short texts).
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: Optional. Remove any private details first.
+    validations:
+      required: false
