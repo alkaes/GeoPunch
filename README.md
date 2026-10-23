@@ -88,6 +88,10 @@ Not yet. If you want one, add a 👍 to the iOS [feature request](https://github
 
 See [CHANGELOG.md](CHANGELOG.md) and the [Releases](https://github.com/alkaes/GeoPunch/releases) page.
 
+## Support the project
+
+GeoPunch is free, with no ads and no tracking. If it saves you time, you can support its development through [PayPal](https://www.paypal.me/alkaes) or the **Sponsor** button at the top of this page. Support is entirely optional and doesn't unlock anything in the app.
+
 ## Contact
 
 alkaes@gmail.com, for anything that doesn't belong in a public issue.
